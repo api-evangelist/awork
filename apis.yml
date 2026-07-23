@@ -1,7 +1,26 @@
 aid: awork
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/awork.png
 name: Awork
-description: Awork is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Awork (awork.ge) is a Georgian online job marketplace that connects job seekers
+  with employers across Georgia. The platform lets people search and apply for vacancies
+  directly, while companies post openings and manage their hiring and HR processes digitally.
+  It features an AI assistant named "Argo" that helps users find relevant positions or
+  publish vacancies, and offers native iOS and Android mobile apps alongside the web
+  experience. Awork is backed by 500 Global. The company does not currently publish a
+  public developer API, developer portal, or API documentation. Not to be confused
+  with the unrelated German work-management SaaS awork.com, which does operate a developer API.
 url: https://raw.githubusercontent.com/api-evangelist/awork/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +28,24 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  last-run: '2026-07-18'
+  api-surface: none
+  note: awork.ge is a Georgian job marketplace with no public API/developer portal (SPA;
+    all paths return 200 app-shell so per-page URLs are unverifiable). Namesake awork.com
+    is a separate company and was not used to enrich this repo (no fabrication).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Jobs
+- Recruiting
+- Employment
+- Job Board
+- Marketplace
+- Human Resources
+- Georgia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,5 @@ maintainers:
 common:
 - type: Website
   url: https://awork.ge
+- type: Blog
+  url: https://blog.awork.ge
