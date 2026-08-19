@@ -34,7 +34,7 @@ x-enrichment:
   note: awork.ge is a Georgian job marketplace with no public API/developer portal (SPA;
     all paths return 200 app-shell so per-page URLs are unverifiable). Namesake awork.com
     is a separate company and was not used to enrich this repo (no fabrication).
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
